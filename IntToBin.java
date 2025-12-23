@@ -10,6 +10,6 @@ public class IntToBin {
     public static String toBinary(int x) {
         if (x == 1) return "1";
         if (x == 0) return "0";
-        return toBinary((x / 2) + (x % 2));
+        return toBinary(x / 2) + (x % 2);
     }    
  }
